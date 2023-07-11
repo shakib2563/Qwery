@@ -1,0 +1,338 @@
+/*================================ common css start 
+============================*/
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+}
+ul,
+ol {
+  padding: 0%;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1320px;
+  margin: 0% auto;
+}
+.flex {
+  display: flex;
+}
+/* ================================ common css end 
+============================*/
+/*================================ navbar css start
+============================*/
+nav {
+  padding-top: 35px;
+  position: absolute;
+  width: 100%;
+}
+nav .logo {
+  width: 50%;
+}
+nav .navigation {
+  width: 50%;
+}
+nav .navigation ul {
+  display: flex;
+  column-gap: 60px;
+}
+nav .navigation ul li a:hover {
+  color: black;
+}
+nav .navigation ul li a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+  transition: 0.4s;
+}
+/*================================ navbar css end
+============================*/
+/*================================ banner css start
+============================*/
+#banner {
+  background-image: url(../image/Rectangle\ 1\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 462px 0px;
+}
+#banner .container .content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffc178;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+#banner .container .content h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 88px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  width: 864px;
+}
+#banner .container .content h1 span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+}
+/*================================ banner css end
+============================ */
+/*================================ 2nd part css start
+============================ */
+.container .flex .logo2 {
+  padding: 319px 0px 358px;
+}
+.container .flex .content2 {
+  padding: 364px 0px 0px 139px;
+}
+.container .flex .content2 .ff {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffc178;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.container .flex .content2 h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.container .flex .content2 .dd {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.container .flex .content2 .ss {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffc178;
+  padding-top: 66px;
+}
+/*================================ 2nd part css end
+============================ */
+/*================================ 3rd part css start
+============================ */
+#information {
+margin-top: 295px;
+margin-bottom: 500px;
+}
+#information .bg{
+  background: url(../image/infornation\ bg.jpg);
+  background-position: center;
+  background-repeat:no-repeat ;
+  background-size: cover;
+}
+#information .bg .overlay{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) -0.01%, rgba(0, 0, 0, 0) 69.38%), linear-gradient(360deg, rgba(0, 0, 0, 0.2) -0.01%, rgba(0, 0, 0, 0) 100%);
+  padding-top: 559px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+#information .bg .overlay .jj{
+  font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 6px;
+text-transform: uppercase;
+color: #FBD784;
+margin-bottom: 20px;
+}
+#information .bg .overlay h2 {
+  font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+text-transform: uppercase;
+text-align: center;
+color: #ffffff;
+width: 900px;
+margin: 0% auto;
+
+}
+#information .bg .overlay .kk{
+  font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 32px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+width: 893px;
+margin: 0% auto;
+padding: 20px;
+
+}
+#information .bg .overlay h3{
+  font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #FBD784;
+margin: 30px;
+}
+/*================================ 3rd part css end
+============================ */
+/*================================ 4th part css start
+============================ */
+#banner2{
+  padding-bottom:500px ;
+}
+#banner2 .content3{
+  margin-top: 200px;
+}
+#banner2 .content3 h4{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FBD784;
+  margin-bottom: 20px;
+}
+#banner2 .content3 h2{
+  font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+#banner2 .content3 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 19px 0px 47px;
+}
+#banner2 .content3 a {
+  font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #FBD784;
+
+}
+/*================================ 4th part css end
+============================ */
+/*================================ 5th part css start
+============================ */
+.container .footer_top .flex .logo3{
+  width: 50%;
+}
+footer .container .footer_top .flex .content4{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 18px;
+}
+footer .container .footer_top .flex .content4 p{
+  font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+letter-spacing: -0.3px;
+text-transform: capitalize;
+color: #ffffff;
+}
+footer .container .footer_top .flex .content4 a{
+  font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 23px;
+text-transform: capitalize;
+color: #000000;
+padding: 18px 67px;
+background-color: #FFA343;
+border-radius: 10px;
+}
+footer .container .footer_bottom{
+  margin-top: 73px;
+}
+footer .container .footer_bottom .flex .item1{
+  width: 28%;
+}
+footer .container .footer_bottom .flex {
+  column-gap: 301px;
+}
+footer .container .footer_bottom .flex .item1 h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: -0.3px;
+  text-transform: capitalize;
+  width: 405px;
+  color: #FFFFFF;
+  margin-bottom: 49px;
+}
+footer .container .footer_bottom .flex .item1 p{
+  font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: -0.204545px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 34px;
+}
+footer .container .footer_bottom .flex .item1 a{
+  color: #ffffff;
+  font-size: 13px;
+  margin-right: 19px;
+}
+footer .container .footer_bottom .flex .item2 {
+display: flex;
+width: 60%;
+}
+footer .container .footer_bottom .flex .item2 .item{
+  width: 30%;
+}
+footer .container .footer_bottom .flex .item2 .item h4{
+  
+font-weight: 700;
+font-size: 20px;
+text-transform: capitalize;
+color: #FFD1A0;
+margin-bottom: 20px;
+}
+footer .container .footer_bottom .flex .item2 .item ul li{
+  margin-bottom: 10px;
+}
+footer .container .footer_bottom .flex .item2 .item ul li a {
+  font-style: normal;
+font-weight: 400;
+font-size: 19px;
+letter-spacing: -0.204545px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+/*================================ 5th part css end
+============================ */
